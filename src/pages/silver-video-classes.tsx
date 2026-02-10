@@ -7,7 +7,6 @@ import Newsletter from "../components/index/Newsletter"
 import RecordedClassInstructors from "../components/video-classes/RecordedClassInstructors"
 import Link from "next/link"
 // import banner
-import banner from "../images/video-classes/banner.png"
 import Image from "next/image"
 
 export default function Classes() {

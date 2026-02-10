@@ -1,5 +1,5 @@
 import { signIn, signOut, useSession } from "next-auth/react"
-import React, { useEffect, useReducer } from "react"
+import React, { useReducer } from "react"
 import Header from "../components/Header"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
@@ -11,6 +11,7 @@ import {
   DialogTitle,
 } from "@headlessui/react"
 import { SWR_FETCHER } from "../../config"
+
 const formatDate = (date: Date) => {
   return `${date.getFullYear()}-${(date.getMonth() + 1)
     .toString()

@@ -1,6 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import * as checkoutNodeJssdk from "@paypal/checkout-server-sdk"
+
 /**
  *
  * Returns PayPal HTTP client instance with environment that has access

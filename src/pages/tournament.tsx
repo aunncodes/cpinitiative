@@ -38,6 +38,7 @@ const tournament_info = {
     ],
   },
 }
+
 function FAQCard({
   question,
   answer,
@@ -442,4 +443,5 @@ function timeLeftString(milliseconds: number) {
   return [days, hours, minutes, seconds]
   // return `${days} day${days === 1 ? '' : 's'}, ${hours} hour${hours === 1 ? '' : 's'}, ${minutes} minute${minutes === 1 ? '' : 's'}, and ${seconds} second${seconds === 1 ? '' : 's'} until the start of the contest.`;
 }
+
 //

@@ -21,6 +21,7 @@ const parseDate = (date: string) => {
   const [year, month, day] = date.split("-").map(x => Number(x))
   return new Date(year, month - 1, day, 0, 0, 0, 0)
 }
+
 export function VolunteerHourHistory({ data }) {
   return (
     <div>

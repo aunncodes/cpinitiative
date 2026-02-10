@@ -15,6 +15,7 @@ function SmallMemberGrid({ members }: { members: Member[] }) {
     </ul>
   )
 }
+
 function LargeMemberGrid({ members }: { members: Member[] }) {
   return (
     <ul
@@ -27,6 +28,7 @@ function LargeMemberGrid({ members }: { members: Member[] }) {
     </ul>
   )
 }
+
 function MemberGrid({ members }: { members: Member[] }) {
   return isMobile ? (
     <LargeMemberGrid members={members} />

@@ -31,9 +31,11 @@ function environment() {
 
 export async function prettyPrint(jsonData: any, pre = "") {
   let pretty = ""
+
   function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
   }
+
   for (const key in jsonData) {
     if (jsonData.hasOwnProperty(key)) {
       if (isNaN(key)) pretty += pre + capitalize(key) + ": "
